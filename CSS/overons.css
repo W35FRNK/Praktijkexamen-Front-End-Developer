@@ -14,6 +14,11 @@
   padding:.75rem;
 }
 
+.sidebar,
+.content {
+  padding-top: 2rem;
+}
+
 h3,
 h5,
 h6 {
@@ -30,10 +35,14 @@ h6 {
   margin-right: auto;
 }
 
-#trompet,
-#saxofoon2 {
-  max-width: 350px;
+#hannah {
+  display: flex;
+}
+
+#img-hannah {
+  width: auto;
   height: auto;
+  display: flex;
   margin: 1rem;
 }
 
@@ -45,15 +54,14 @@ h6 {
     grid-template-columns: 1fr;
   }
 
- 
+  #kind {
+    display: flex;
+    max-width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-  #trompet,
-  #saxofoon2 {
-  display: flex;
-  max-width: 90%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
+  
 
 }
