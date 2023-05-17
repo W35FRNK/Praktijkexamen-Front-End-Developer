@@ -35,15 +35,19 @@ h6 {
   margin-right: auto;
 }
 
-#hannah {
-  display: flex;
+.article-hannah,
+.article-jesse {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 5rem;
 }
 
-#img-hannah {
-  width: auto;
+
+
+#img-hannah,
+#img-jesse {
+  width: 350px;
   height: auto;
-  display: flex;
-  margin: 1rem;
 }
 
 
@@ -54,14 +58,67 @@ h6 {
     grid-template-columns: 1fr;
   }
 
-  #kind {
+  .article-hannah,
+  .article-jesse {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+  }
+  #img-hannah,
+  #img-jesse {
     display: flex;
-    max-width: 90%;
+    max-width: 175px;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+}
+  .img-hannah-container,
+  .img-jesse-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width:425px) { 
+  .main {
+    grid-template-columns: 1fr;
   }
 
-  
+  .article-hannah,
+  .article-jesse {
+    display: grid;
+    grid-template-areas: 
+    'i1'
+    't1';
+    
+  }
 
+  .text-hannah-container,
+  .text-jesse-container {
+    grid-area: t1;
+
+  }
+
+  .img-hannah-container,
+  .img-jesse-container {
+    grid-area: i1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+  }
+  #img-hannah,
+  #img-jesse {
+    display: flex;
+    max-width: 175px;
+    height: auto;
+    ;
+}
+
+
+.main >
+h1,
+h3,
+h5,
+h6 {
+  text-align: center;
+
+}
 }
