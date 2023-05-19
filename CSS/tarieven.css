@@ -1,12 +1,15 @@
 .main {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  min-height: 100vh;
+  
 }
 
 
 .sidebar {
   background-color: rgb(247, 166, 112);
   padding:.75rem;
+  
 }
 
 .content {

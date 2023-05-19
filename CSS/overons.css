@@ -18,6 +18,12 @@
 .sidebar,
 .content {
   padding-top: 2rem;
+ 
+}
+
+.content {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 h3,
@@ -37,10 +43,12 @@ h6 {
 }
 
 
+
 /* HANNAH */
 .article-hannah {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
+  
 }
 
 #text-hannah,
