@@ -59,6 +59,7 @@ h6 {
 #img-hannah,
 #img-jesse {
   max-width: 100%;
+  display: flex;
 }
 
 
