@@ -1,130 +1,118 @@
 .main {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
 }
 
 .sidebar {
-  background-color: rgb(247, 166, 112);
-  padding:.75rem;
+	background-color: rgb(247, 166, 112);
+	padding: 0.75rem;
 }
 
 .content {
-  background-color: white;
-  padding:.75rem;
-  padding-bottom: 5rem;
-
+	background-color: white;
+	padding: 0.75rem;
+	padding-bottom: 5rem;
 }
 
 .sidebar,
 .content {
-  padding-top: 2rem;
- 
+	padding-top: 2rem;
 }
 
 .content {
-  padding-left: 3rem;
-  padding-right: 3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
 }
 
 h3,
 h5,
 h6 {
-  font-weight: 700 !important;
+	font-weight: 700 !important;
 }
 
 .sidebar > img {
-  display: flex;
-  max-width: 90%;
-  height: auto;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
+	display: flex;
+	max-width: 90%;
+	height: auto;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-
 
 /* HANNAH */
 .article-hannah {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
 }
 
 #text-hannah,
 #text-jesse {
-  max-width: 100%; 
+	max-width: 100%;
 }
 
 #img-hannah,
 #img-jesse {
-  max-width: 100%;
-  display: flex;
+	max-width: 100%;
+	display: flex;
 }
-
 
 /* JESSE */
 .article-jesse {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
 }
-
 
 @media (max-width: 850px) {
-  /* HANNAH */
-  .article-hannah {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    'iH'
-    'tH';
-  }
+	/* HANNAH */
+	.article-hannah {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-areas:
+			"iH"
+			"tH";
+	}
 
-  #img-hannah {
-    max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-    height: auto;
-    grid-area: iH;
-  }
+	#img-hannah {
+		max-width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1rem;
+		height: auto;
+		grid-area: iH;
+	}
 
-  #text-hannah {
-    max-width: 100%;
-    grid-area: tH;
-  }
+	#text-hannah {
+		max-width: 100%;
+		grid-area: tH;
+	}
 
-  /* JESSE */
-  .article-jesse {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    'iJ'
-    'tJ';
-  }
+	/* JESSE */
+	.article-jesse {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-areas:
+			"iJ"
+			"tJ";
+	}
 
-  #text-jesse {
-    max-width: 100%;
-    grid-area: tJ;
-  }
+	#text-jesse {
+		max-width: 100%;
+		grid-area: tJ;
+	}
 
-  #img-jesse {
-    max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-    height: auto;
-    grid-area: iJ;
-  }
+	#img-jesse {
+		max-width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1rem;
+		height: auto;
+		grid-area: iJ;
+	}
 }
 
-@media (max-width:580px) { 
-  .main {
-    grid-template-columns: 1fr;
-  }
-
- 
-
-
+@media (max-width: 580px) {
+	.main {
+		grid-template-columns: 1fr;
+	}
 }
-

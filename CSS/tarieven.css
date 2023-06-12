@@ -1,43 +1,33 @@
 .main {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  min-height: 100vh;
-  
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	min-height: 100vh;
 }
 
-
 .sidebar {
-  background-color: rgb(247, 166, 112);
-  padding:.75rem;
-  
+	background-color: rgb(247, 166, 112);
+	padding: 0.75rem;
 }
 
 .content {
-  background-color: white;
-  padding:.75rem;
-  padding-bottom: 5rem;
+	background-color: white;
+	padding: 0.75rem;
+	padding-bottom: 5rem;
 }
 
 h3,
 h5,
 h6 {
-  font-weight: 700 !important;
+	font-weight: 700 !important;
 }
 
 hr {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
+	margin-top: 0.5em !important;
+	margin-bottom: 0.5em !important;
 }
 
-
-
-
-@media (max-width:580px) { 
-  .main {
-    grid-template-columns: 1fr;
-  }
-
- 
-
-
+@media (max-width: 580px) {
+	.main {
+		grid-template-columns: 1fr;
+	}
 }
