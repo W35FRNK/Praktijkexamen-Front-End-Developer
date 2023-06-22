@@ -27,20 +27,13 @@
 	background-color: #b94a0ae7;
 	position: relative;
 	border-bottom: 4px solid yellow;
-	/* justify-content: space-between; */
+	display: flex;
+	justify-content: center;
 }
 
 .nav > .nav-header {
 	display: inline;
 }
-
-/* .nav > .nav-header > .nav-title {
-  display: inline-block;
-  font-size: 22px;
-  color: #fff;
-  padding: 10px 10px 10px 10px;
-  margin-right: 10rem;
-} */
 
 .nav > .nav-btn {
 	display: none;
@@ -49,6 +42,7 @@
 .nav > .nav-links {
 	display: inline;
 	float: left;
+
 	font-size: 18px;
 }
 
